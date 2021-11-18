@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("assets/bp.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(0, 21, 46);
+}
+
+.beatbox {
+  width: 40%;
+  height: 70%;
+  background: rgb(54, 54, 54);
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-evenly;
+  background-color: rgb(34, 32, 32);
+  opacity: 1;
+}
+
+.beat {
+  width: 150px;
+  height: 150px;
+  flex-basis: 29%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.beat .button {
+  width: 70%;
+  height: 100px;
+  border-radius: 10px;
+  border: 5px solid rgb(132, 241, 255);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 2em;
+  transition: all 0.2s;
+}
+
+.bulalord {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.cheese {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.listen {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.gumalaw {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.pano {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.pano2 {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.guardian {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.matt {
+  background-size: 150% 100%;
+  background-repeat: no-repeat;
+}
+
+.budoy {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.form1 {
+  height: 600px;
+  background: rgb(54, 54, 54);
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-evenly;
+  background-color: rgb(34, 32, 32);
+  opacity: 1;
+}
+.header {
+  height: 60px;
+  background-color: rgb(49, 0, 39);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(49, 0, 39);
+}
